@@ -6,32 +6,27 @@
 # - `variant` controls the style/layout of the section (if applicable).
 # =====================================================
 
+# Order and visibility of homepage sections.
 homepage:
   sections:
     - name: Introduction
       variant: default
       enabled: true
-
     - name: Experience
       variant: default
       enabled: true
-
-    - name: Publications
-      variant: default
-      enabled: true
-
     - name: Projects
       variant: default
       enabled: true
-
     - name: Skills
       variant: default
       enabled: true
-
     - name: Talks
-      variant: default # default | card
+      variant: default
       enabled: true
-
+    - name: Publications
+      variant: default
+      enabled: false # Turn on after adding verified publications.
     - name: Services
-      variant: default # default | card
-      enabled: true
+      variant: default
+      enabled: false # No professional services claimed yet.
