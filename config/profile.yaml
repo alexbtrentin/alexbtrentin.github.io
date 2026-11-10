@@ -1,236 +1,202 @@
-# =====================================================
-# Data displayed on the Home (About Me) page.
-#
-# 💡 Tip for Images / Logo:
-# You can use either:
-# 1. A full URL (e.g., https://example.com/logo.png)
-# 2. A local file placed under /public/images/ and referenced with "/" (e.g., "/images/logo.png")
-# =====================================================
-
-# =====================================================
-# 👤 Personal Information
-# =====================================================
-
+# Personal profile and homepage content. Replace only the items you want public.
 profile:
-  name: "[Your Name]"
-  headline: "Student @ [Your University]"
-  email: "your-email@gmail.com"
-  location: null
-  profileImage: "https://github.com/pm25.png"
+  name: "Alex Batista Trentin"
+  headline: "PhD Researcher | Experimental Microbiology & Bioinformatics"
+  email: "" # TODO: Add a professional email only if you want it public.
+  location: "Purdue University · West Lafayette, Indiana, USA"
+  profileImage: "https://github.com/alexbtrentin.png" # Replace with your preferred headshot if desired.
 
   links:
-    - name: "LinkedIn"
-      url: "https://www.linkedin.com/in/[your-linkedin]"
-      icon:
-        name: "FaLinkedin"
-        package: "react-icons/fa6"
-
-    - name: "Google Scholar"
-      url: "https://scholar.google.com/citations?user=[your-id]"
-      icon:
-        name: "FaGoogleScholar"
-        package: "react-icons/fa6"
-
-    - name: "Résumé"
-      url: "/pdf/sample-resume.pdf"
-      icon:
-        name: "FaRegIdBadge"
-        package: "react-icons/fa6"
-
-    - name: "Github"
-      url: "https://github.com/[your-github]"
+    - name: "GitHub"
+      url: "https://github.com/alexbtrentin"
       icon:
         name: "FaGithub"
         package: "react-icons/fa6"
+    # TODO: Add your real LinkedIn, Google Scholar and résumé links when ready.
+    # - name: "LinkedIn"
+    #   url: "https://www.linkedin.com/in/alex-batista-trentin/"
+    #   icon:
+    #     name: "FaLinkedin"
+    #     package: "react-icons/fa6"
 
-    - name: "Facebook"
-      url: "https://www.facebook.com/[your-facebook]"
-      icon:
-        name: "FaSquareFacebook"
-        package: "react-icons/fa6"
-
-  # you can use HTML syntax here (e.g. <br/>, <a>, <strong>, ...)
   biography: |
-    Hi! I'm <strong>[Your Name]</strong>, a <em>[Your Title]</em> passionate about <em>[field or topic]</em>. Currently, I work as <em>[current role]</em> at <em>[organization]</em>, where I <em>[briefly describe your work or mission]</em>. 
-    With a background in <em>[academic or professional background]</em>, I've developed strong interests in <em>[key interests or specialties]</em> and have contributed to projects like <i>[example project]</i> and <i>[another example]</i>, all focused on <em>[broader goal or impact]</em>.
+    Hi! I'm <strong>Alex Batista Trentin</strong>, a PhD researcher in Agronomy at
+    <strong>Purdue University</strong>, where I work at the intersection of
+    <strong>experimental microbiology, microbial ecology, and bioinformatics</strong>.
+    My research combines laboratory experimentation, high-throughput sequencing,
+    reproducible data analysis, and statistical modeling to understand microbial
+    communities and their interactions with environmental systems.
     <div class="my-2"></div>
-    Outside of work, I enjoy <em>[hobbies or personal interests]</em>, which inspire creativity and keep me energized. Thanks for visiting! Feel free to <a href="mailto:[your-email@example.com]" target="_blank" rel="noopener noreferrer">reach out</a> to connect.
+    My work includes soil microbiome responses to agricultural management,
+    microbial stable isotope probing, and methodological questions in DNA recovery.
+    I also have experience with microbial cultivation, molecular methods, and
+    plant–microbe interactions from earlier research in Brazil.
+    <div class="my-2"></div>
+    I am interested in interdisciplinary scientific research and applications
+    across biotechnology, agricultural innovation, and the life sciences—especially
+    projects that connect experimental discovery with computational analysis.
 
-# # =====================================================
-# # 🎓 Education Section
-# # =====================================================
-
+# Education: Add your official master's/bachelor's degree titles and dates after checking them.
 education:
-  - degree: "Ph.D. in [Field]"
-    school: "[University Name]"
-    years: "20XX - Present"
-    logo: "https://upload.wikimedia.org/wikipedia/en/a/a1/Arizona_State_University_seal.svg"
+  - degree: "PhD in Agronomy (Soil Microbiology & Bioinformatics)"
+    school: "Purdue University"
+    years: "In progress"
+    logo: null
+  - degree: "M.S in Biotechnology (Soil Microbiology & Bioinformatics)"
+    school: "Federal University of Technology – Paraná (UTFPR), Brazil"
+    years: "2022-2024"
+    logo: null
+  - degree: "B.S in Biological sciences"
+    school: "Federal University of Technology – Paraná (UTFPR), Brazil"
+    years: "2017-2021"
+    logo: null
 
-  - degree: "M.S. in Computer Science"
-    school: "National Taiwan University"
-    years: "2020 - 2022"
-    logo: "/images/ntu_logo.svg"
 
-  - degree: "B.S. in Computer Science"
-    school: "National Chengchi University"
-    years: "2018 - 2020"
-    logo: "/images/nccu_logo.svg"
-
-# # =====================================================
-# # 💼 Work Experience Section
-# # =====================================================
 
 workExperience:
-  - title: "[Job Title]"
-    company: "[Company Name]"
-    years: "20XX - Present"
-    logo: "/images/nvidia_logo.webp"
+  - title: "PhD Researcher — Microbial Ecology & Bioinformatics"
+    company: "Purdue University | MEME Lab"
+    years: "Current"
+    logo: null
+    description: >-
+      Conduct interdisciplinary research integrating experimental
+      microbiology, high-throughput sequencing, bioinformatics,
+      and statistical modeling. Investigate soil microbiome responses
+      to environmental changes, develop computational workflows for
+      microbial data integration, and evaluate methodological biases
+      in DNA extraction and microbial community analysis.
+    skills:
+      - "Microbial Ecology"
+      - "NGS & Bioinformatics"
+      - "R & Statistical Modeling"
+      - "Experimental Design"
+      - "QIIME 2 & HPC"
 
-  - title: "Software Engineering Intern"
-    company: "Google"
-    years: "Jul 2022 - Sep 2022"
-    logo: "/images/google_logo.svg"
+  - title: "Research Group Technician — Soil Biology & Biostatistics"
+    company: "Universidade Tecnológica Federal do Paraná (UTFPR)"
+    years: "2024"
+    logo: null
+    description: >-
+      Provided biostatistical support for soil biology research,
+      including experimental data analysis, statistical testing,
+      data visualization, and interpretation of research results.
+      Assisted researchers in evaluating experimental outcomes
+      and communicating scientific findings.
+    skills:
+      - "Biostatistics"
+      - "R"
+      - "Experimental Data Analysis"
+      - "Data Visualization"
+      - "Scientific Reporting"
 
-  - title: "Research Assistant"
-    company: "University of Illinois Urbana-Champaign"
-    years: "Jul 2019 - Sep 2019"
-    logo: "/images/uiuc_logo.png"
+  - title: "Graduate Researcher — Plant–Microbe Interactions"
+    company: "Universidade Tecnológica Federal do Paraná (UTFPR)"
+    years: "Prior to Purdue"
+    logo: null
+    description: >-
+      Investigated beneficial endophytic fungi and their potential
+      to promote plant growth. Performed fungal isolation,
+      cultivation and identification, evaluated plant-growth-
+      promoting traits, and conducted greenhouse inoculation
+      experiments to assess plant responses.
+    skills:
+      - "Fungal Microbiology"
+      - "Microbial Cultivation"
+      - "Plant–Microbe Interactions"
+      - "Greenhouse Experiments"
+      - "Experimental Design"
 
-# # =====================================================
-# # 🎤 Presentations / Talks Section
-# # =====================================================
+  - title: "Molecular Biology Researcher — Pathogen Detection"
+    company: "Molecular Biology Laboratory | UTFPR"
+    years: "COVID-19 Research Period"
+    logo: null
+    description: >-
+      Contributed to molecular biology research and laboratory
+      testing activities involving SARS-CoV-2 detection.
+      Applied molecular techniques, nucleic acid processing,
+      PCR-based workflows, and laboratory biosafety procedures
+      in pathogen detection research.
+    skills:
+      - "Molecular Diagnostics"
+      - "PCR-based Methods"
+      - "Nucleic Acid Extraction"
+      - "BSL-2 Laboratory Practices"
+      - "Laboratory Quality Control"
+
 
 talks:
-  - category: "Misc"
-    title: "[Your Talk Title Here]"
-    organization: "[Your Talk Location Here]"
-    date: "[Month Day, Year]"
-    link: "https://example.com/your-talk-link"
-    image: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg"
-
-  - category: "Workshop"
-    title: "Deep Learning with Keras"
-    organization: "University of Illinois Urbana-Champaign (UIUC)"
-    date: "Sep 4, 2019"
-    link: null
-    image: "https://pm25.github.io/images/uiuc-workshop.webp"
-
-  - category: "Workshop"
-    title: "Practical Guide to PyTorch"
-    organization: "ABC University"
-    date: "Dec 5, 2022"
-    link: "https://example.com/workshop-talk"
-    image: null
-
-# # =====================================================
-# # 🛡️ Professional Services
-# # =====================================================
-
-services:
-  - category: "Misc"
-    role: "[Role]"
-    organization: "[Organization]"
-    date: "[Year]"
-    link: "https://example.com/workshop-talk"
-    image: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg"
-
-  - category: "Research"
-    role: "Reviewer"
-    organization: "TPAMI 2024, NeurIPS 2025"
-    date: "2024-2025"
+  - category: "Conference Presentation"
+    title: "Linking Soil Chemical Change to Bacterial Community Response Under Gypsum and Lime Amendments"
+    organization: "CANVAS 2026"
+    date: "2026"
     link: null
     image: null
 
-  - category: "Research"
-    role: "Program Committee Member"
-    organization: "CVPR 2022"
-    date: "2022"
-    link: null
-    image: null
+# Hide this section on the homepage until you have verified items to include.
+services: []
 
-  - category: "Teaching"
-    role: "Teaching Assistant"
-    organization: "National Taiwan University - Data Structures & Algorithms"
-    date: "2021"
-    link: null
-    image: null
-
-# # =====================================================
-# # 🛠️ Skills Section
-# # =====================================================
-
+# Skills shown on the homepage. Descriptions intentionally avoid unsupported claims.
 skills:
-  Programming:
-    - name: "[Name]"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
-      proficiency: "[Proficiency]"
-      description: "[Description]"
+  Programming & Computing:
+    - name: "R"
+      logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/r/r-original.svg"
+      proficiency: "Research experience"
+      description: "Statistical modeling, data visualization, and reproducible analyses."
+    - name: "Linux / HPC"
+      logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
+      proficiency: "Research experience"
+      description: "Command-line workflows and Slurm-based scientific computing."
+    - name: "Git & GitHub"
+      logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"
+      proficiency: "Research use"
+      description: "Versioned bioinformatics and analysis projects."
+    - name: "R Shiny"
+      logo: null
+      proficiency: "Project experience"
+      description: "Interactive scientific dashboards and research applications."
 
-    - name: "Python"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
-      proficiency: Experienced
-      description: null
+  Bioinformatics & Sequencing:
+    - name: "QIIME 2 / DADA2"
+      logo: null
+      proficiency: "Research experience"
+      description: "Amplicon sequencing quality control, denoising, and taxonomic analysis."
+    - name: "phyloseq"
+      logo: null
+      proficiency: "Research experience"
+      description: "Microbiome data integration and ecological analysis in R."
+    - name: "NGS Data Analysis"
+      logo: null
+      proficiency: "Research experience"
+      description: "16S, ITS, shotgun metagenomic, and whole-genome sequencing datasets."
+    - name: "Sequencing Technologies"
+      logo: null
+      proficiency: "Hands-on experience"
+      description: "Illumina, Element AVITI, and Oxford Nanopore laboratory workflows."
 
-    - name: "JavaScript"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
-      proficiency: Fluent
-      description: null
+  Statistics & Research Methods:
+    - name: "Experimental Design & Mixed-Effects Models"
+      logo: null
+      proficiency: "Research experience"
+      description: "Analysis of longitudinal, blocked, and replicated experiments."
+    - name: "Community Ecology Statistics"
+      logo: null
+      proficiency: "Research experience"
+      description: "Ordination, PERMANOVA, diversity analysis, and environmental associations."
+    - name: "Differential Abundance Analysis"
+      logo: null
+      proficiency: "Research experience"
+      description: "Approaches including DESeq2, edgeR, limma-voom, and ALDEx2."
 
-  Web:
-    - name: "React"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/3/30/React_Logo_SVG.svg"
-      proficiency: Advanced
-      description: null
-
-    - name: "Typescript"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/f/f5/Typescript.svg"
-      proficiency: Fluent
-      description: null
-
-    - name: "TailwindCSS"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
-      proficiency: Fluent
-      description: null
-
-    - name: "Next.js"
-      logo: "https://logo.svgcdn.com/devicon/nextjs-original.png"
-      proficiency: Fluent
-      description: null
-
-  Machine Learning:
-    - name: "PyTorch"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg"
-      proficiency: Experienced
-      description: null
-
-    - name: "TensorFlow"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg"
-      proficiency: Fluent
-      description: null
-
-    - name: "Keras"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg"
-      proficiency: Fluent
-      description: null
-
-  Research:
-    - name: "Machine Learning"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
-      proficiency: 2020 - Current
-      description: "General machine learning methods and applied research."
-
-    - name: "Representation Learning"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/OOjs_UI_icon_academic-progressive.svg"
-      proficiency: 2024 - 2025
-      description: "Learning meaningful embeddings and feature representations from data."
-
-  Language:
-    - name: "English"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/OOjs_UI_icon_language-ltr-progressive.svg"
-      proficiency: Fluent
-      description: "Professional working proficiency."
-
-    - name: "Taiwanese Hokkien"
-      logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/OOjs_UI_icon_language-ltr-progressive.svg"
-      proficiency: Native
-      description: "Native fluency."
+  Experimental Microbiology:
+    - name: "Microbial Cultivation & Isolation"
+      logo: null
+      proficiency: "Hands-on experience"
+      description: "Laboratory cultivation and experimental comparisons of microbial phenotypes."
+    - name: "Molecular Biology"
+      logo: null
+      proficiency: "Hands-on experience"
+      description: "DNA extraction, PCR, quantification, normalization, and library preparation."
+    - name: "Plant–Microbe Interactions"
+      logo: null
+      proficiency: "Research experience"
+      description: "Fungal inoculants and plant-growth experiments."
